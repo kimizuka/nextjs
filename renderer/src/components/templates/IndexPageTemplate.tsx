@@ -1,3 +1,4 @@
+import styled from 'styled-components';
 import { useEffect } from 'react';
 
 declare global {
@@ -28,8 +29,10 @@ export function IndexPageTemplate() {
   }
 
   return (
-    <div>
+    <Wrapper>
       <button onClick={ handleClickBtnHello }>HELLO</button>
-    </div>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div``;
