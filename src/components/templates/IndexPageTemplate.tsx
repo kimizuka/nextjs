@@ -7,10 +7,14 @@ import { useResize } from '@/hooks/useResize';
 import { useScroll } from '@/hooks/useScroll';
 
 export function IndexPageTemplate() {
-  const windowRef = useRef<Window>(window);
+  const windowRef = useRef<Window | null>(null);
   const { windowWidth, windowHeight } = useResize();
   const { scrollTop } = useScroll(windowRef);
   const { isLoading, setIsLoading } = usePageStateContext();
+
+  useEffect(() => {
+    windowRef.current = window;
+  }, []);
 
   useEffect(() => {
     const delay = 1000;
