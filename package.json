@@ -30,7 +30,7 @@
     "@types/styled-components": "^5.1.34",
     "electron": "^28.0.0",
     "electron-builder": "^24.9.1",
-    "next": "latest",
+    "next": "^14.0.1",
     "npm-check-updates": "^16.14.11",
     "rimraf": "^5.0.5",
     "sass": "^1.69.5",
