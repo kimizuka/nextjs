@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "run-p dev:next dev:css",
-    "dev:next": "next dev",
+    "dev:next": "next dev --turbopack",
     "dev:css": "hcm 'src/**/*.module.css' --watch",
-    "build": "next build",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "biome check --write ./src",
     "update": "ncu -u"
   },
   "dependencies": {
-    "next": "15.3.2",
+    "next": "15.3.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
