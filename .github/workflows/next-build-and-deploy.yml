@@ -25,6 +25,8 @@ jobs:
 
       - name: Build Next.js app
         run: yarn build
+        env:
+          NEXT_PUBLIC_MESSAGE: ${{ secrets.NEXT_PUBLIC_MESSAGE }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
