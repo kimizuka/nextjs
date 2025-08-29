@@ -2,4 +2,4 @@ declare const styles:
   & Readonly<{ "container": string }>
 ;
 export default styles;
-//# sourceMappingURL=./page.module.css.d.ts.map
+//# sourceMappingURL=./index.module.css.d.ts.map

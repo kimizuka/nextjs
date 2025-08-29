@@ -1,0 +1,17 @@
+:root {
+  --black: #22262a;
+  --white: #d8dee9;
+  --red: #ec5f66;
+  --green: #5fb4b4;
+  --blue: #69c;
+  --yellow: #f9ae58;
+  --purple: #c695c6;
+  --gray: #6b727c;
+}
+
+body {
+  color: var(--white);
+  font-family: var(--font-ibm-plex-sans-jp), sans-serif;
+  font-size: 10vw;
+  background: var(--black);
+}
