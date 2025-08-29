@@ -3,10 +3,10 @@ name: Next.js Build And Deploy
 on:
   push:
     branches:
-      - biome+hcm+storybook+github-actions
+      - main
   pull_request:
     branches:
-      - biome+hcm+storybook+github-actions
+      - main
 
 jobs:
   build-and-deploy:
