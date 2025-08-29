@@ -27,6 +27,7 @@ jobs:
         run: yarn build
         env:
           NEXT_PUBLIC_MESSAGE: ${{ vars.NEXT_PUBLIC_MESSAGE }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
