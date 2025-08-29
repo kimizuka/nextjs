@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/src/app/index.module.css"],"sourcesContent":[".container {\n  display: grid;\n  place-items: center;\n  position: fixed;\n  inset: 0;\n}\n"],"names":[],"mappings":"AAAA"}
